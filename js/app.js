@@ -8,8 +8,8 @@ $(function() {
         });
 
 
-    $(".col-4-projects").hover(function() {
+    /*$(".col-4-projects").hover(function() {
         $("#project1").animate({ 
             width: "500px", 
             length: "500px" });
-         });
+       }); */
