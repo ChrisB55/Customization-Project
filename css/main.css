@@ -58,10 +58,24 @@ h2 {
     -ms-user-select:none;
 }
 
+
 .info_panel .info_panel_trigger:hover{
     color: red;
     text-decoration: underline;
 }
+
+.info_panel .info_panel_trigger::before{
+    padding-right: 5px;
+    
+}
+
+.info_panel .info_panel_content_container {
+    overflow: hidden;
+}
+info_panel .info_panel_content{
+    padding: 5px 0;
+}
+
 
 
 .row-skills {
