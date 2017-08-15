@@ -5,9 +5,8 @@ body {
     max-width: 100%;
     width: 100%;
     background-color: #FDFDFD;
-    border-bottom: solid;
-    border-bottom-color: #7d97ad;
     font-family: PT Sans;
+    background-image: url("../images/constitution.jpg");
 }
 h2 {
     margin-left: 35px;
@@ -18,29 +17,29 @@ h2 {
     width: 100%;
 }
 .col-4-projects {
+    opacity: .95;
     width: 17.33%;
     width: 100%;
     border-radius: 1px;
     border: 1px solid black;
     background-color: #F2F8FA;
-    box-shadow: 3px 3px 1px #888888;
     margin: 2%;
 }
 
 .col-4-projects img {
-    opacity: 1;
+    opacity: .95;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
 }
 
 .col-4-projects:hover {
-    opacity: .9;
+    opacity: 1;
     width: 33.33%;
     transform: scale(1.05);
 }
 .col-4-projects:hover {
-    opacity: .9;
+    opacity: 1;
     width: 33.33%;
 }
 
@@ -75,8 +74,6 @@ h2 {
 info_panel .info_panel_content{
     padding: 5px 0;
 }
-
-
 
 .row-skills {
     width: 100%;
